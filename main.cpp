@@ -12,5 +12,7 @@ int main(int argc, char *argv[])
     qRegisterMetaType<std::vector<std::vector<uint64_t>>>("std::vector<std::vector<uint64_t>>");
     MainWindow w;
     w.show();
+    //修改测试
+    qDebug() << "This is a debug message.";
     return a.exec();
 }
