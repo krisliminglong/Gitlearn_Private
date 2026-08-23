@@ -12,5 +12,7 @@ int main(int argc, char *argv[])
     w.show();
     return a.exec();
     //远端修改V4.0
+
     //本地修改V5.0
+    //远端修改V5.0
 }
